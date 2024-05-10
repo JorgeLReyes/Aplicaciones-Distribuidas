@@ -4,8 +4,8 @@
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
-2. Cliente: EL cliente realizó con tecnologías básicas: HTML, CSS Y JS
-3. DB: La base de datos esta alojada en el servicio de Supabase
+2. Cliente: El cliente realizó con tecnologías básicas: HTML, CSS Y JS
+3. Base de datos: La base de datos esta alojada en el servicio de Supabase
 
 ### URL
 
@@ -27,5 +27,8 @@ Formato para mandar el objeto de la petición
   }  
 }
 ```
+**Sitio web Cliente**
+[Cliente]()
+
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
