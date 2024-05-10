@@ -14,9 +14,9 @@ Para este ejercicio se trabajó de la siguiente manera
 | Petición HTTP | URL | Headers |
 | ----------- | ----------- | ----------- |
 | GET | [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) | 
-| POST | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
-| PUT | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
-| DELETE | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| POST | [Añadir un nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| PUT | [Editar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| DELETE | [Eliminar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324
 
 ```
 Formato para mandar el objeto de la petición
