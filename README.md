@@ -11,10 +11,10 @@ Para este ejercicio se trabajó de la siguiente manera
 
 **EndPoints API**
 Para acceder a la API del servidor se puede hacer mediante los siguientes links
-- [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) Petición: GET
-- [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) Petición: POST 
-- [Modificar nuevo usuario](https://apirestful-users.onrender.com/user) Petición: PUT 
-- [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user) Petición: DELETE
+- GET [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)
+- POST [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) 
+- PUT [Modificar nuevo usuario](https://apirestful-users.onrender.com/user)
+- DELETE [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user)
 
 Para las peticiones tipo POST, PUT y DELETE el objeto JSON se debe mandar de la siguiente manera
 {
