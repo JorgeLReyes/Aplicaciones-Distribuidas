@@ -11,12 +11,12 @@ Para este ejercicio se trabajó de la siguiente manera
 
 **EndPoints API**
 
-| Petición HTTP | URL | Headers |
-| ----------- | ----------- | ----------- |
-| GET | [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) | 
-| POST | [Añadir un nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
-| PUT | [Editar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324
-| DELETE | [Eliminar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| Petición HTTP | URL | Headers | Valores requeridos
+| ----------- | ----------- | ----------- | ----------- |
+| GET | [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) | |
+| POST | [Añadir un nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324 | nombre
+| PUT | [Editar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324 | id y nombre
+| DELETE | [Eliminar un usuario](https://apirestful-users.onrender.com/user) | Token : 1324 | id
 
 ```
 Formato para mandar el objeto de la petición
