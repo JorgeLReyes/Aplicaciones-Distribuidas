@@ -8,5 +8,19 @@ Para este ejercicio se trabajó de la siguiente manera
 3. DB: La base de datos esta alojada en el servicio de Supabase
 
 ### URL
+
+**EndPoints API**
 Para acceder a la API del servidor se puede hacer mediante los siguientes links
-- [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)
+- [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) Petición: GET
+- [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) Petición: POST 
+- [Modificar nuevo usuario](https://apirestful-users.onrender.com/user) Petición: PUT 
+- [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user) Petición: DELETE
+
+Para las peticiones tipo POST, PUT y DELETE el objeto JSON se debe mandar de la siguiente manera
+{
+  "data":{
+    "id":[valor],
+    "nombre":[valor],
+  }  
+}
+__Nota: Las propiedades id y/o valor pueden ser opcionales dependiendo de la solicitud__
