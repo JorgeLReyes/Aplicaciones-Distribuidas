@@ -7,8 +7,6 @@ Para este ejercicio se trabajó de la siguiente manera
 2. Cliente: HTML, CSS Y JS alojada en github pages
 3. Base de datos: Alojada en el servicio de Supabase
 
-### URL
-
 **EndPoints API**
 
 | Petición HTTP | URL | Headers | Valores requeridos
