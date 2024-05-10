@@ -11,13 +11,19 @@ Para este ejercicio se trabajó de la siguiente manera
 
 **EndPoints API**
 Para acceder a la API del servidor se puede hacer mediante los siguientes links
+
 - GET [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)
 - POST [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) 
 - PUT [Modificar nuevo usuario](https://apirestful-users.onrender.com/user)
 - DELETE [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user)
 
-Para las peticiones tipo POST, PUT y DELETE el objeto JSON se debe mandar de la siguiente manera
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 ```
+Formato para mandar el objeto de la petición
 {
   "data":{
     "id":[valor],
@@ -25,4 +31,3 @@ Para las peticiones tipo POST, PUT y DELETE el objeto JSON se debe mandar de la 
   }  
 }
 ```
-_Nota: Las propiedades id y/o valor pueden ser opcionales dependiendo de la solicitud_
