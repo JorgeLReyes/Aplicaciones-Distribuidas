@@ -17,10 +17,12 @@ Para acceder a la API del servidor se puede hacer mediante los siguientes links
 - DELETE [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user)
 
 Para las peticiones tipo POST, PUT y DELETE el objeto JSON se debe mandar de la siguiente manera
-	```{
+```
+{
   "data":{
     "id":[valor],
     "nombre":[valor],
   }  
-}```
+}
+```
 _Nota: Las propiedades id y/o valor pueden ser opcionales dependiendo de la solicitud_
