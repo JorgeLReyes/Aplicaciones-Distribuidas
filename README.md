@@ -4,8 +4,8 @@
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
-2. Cliente: El cliente realizó con tecnologías básicas: HTML, CSS Y JS
-3. Base de datos: La base de datos esta alojada en el servicio de Supabase
+2. Cliente: HTML, CSS Y JS alojada en github pages
+3. Base de datos: Alojada en el servicio de Supabase
 
 ### URL
 
