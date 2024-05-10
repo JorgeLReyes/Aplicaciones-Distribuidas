@@ -9,4 +9,4 @@ Para este ejercicio se trabajó de la siguiente manera
 
 ### URL
 Para acceder a la API del servidor se puede hacer mediante los siguientes links
-- (Obtener todos los usuarios)[https://apirestful-users.onrender.com/users]
+- [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)
