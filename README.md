@@ -27,3 +27,5 @@ Formato para mandar el objeto de la petición
   }  
 }
 ```
+En la siguiente imagen podemos observar el diagrama de arquitectura
+![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
