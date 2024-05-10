@@ -10,17 +10,13 @@ Para este ejercicio se trabajó de la siguiente manera
 ### URL
 
 **EndPoints API**
-Para acceder a la API del servidor se puede hacer mediante los siguientes links
 
-- GET [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)
-- POST [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) 
-- PUT [Modificar nuevo usuario](https://apirestful-users.onrender.com/user)
-- DELETE [Eliminar nuevo usuario](https://apirestful-users.onrender.com/user)
-
-| Syntax | Description |
+| Petición HTTP | URL | Headers |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| GET | [Obtener todos los usuarios](https://apirestful-users.onrender.com/users) | 
+| POST | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| PUT | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
+| DELETE | [Añadir nuevo usuario](https://apirestful-users.onrender.com/user) | Token : 1324
 
 ```
 Formato para mandar el objeto de la petición
