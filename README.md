@@ -1,6 +1,6 @@
 # Aplicaciones-Distribuidas
 
-## Ejercicio API Rest Ful
+## Ejercicio API Rest _Ful_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
