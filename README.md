@@ -1,5 +1,15 @@
 # Aplicaciones-Distribuidas
 
+## Web sockets
+
+Para este ejercicio se trabajó de la siguiente manera
+1. Servidor: Node.JS con Express alojado en el servicio web de Render
+2. Cliente: HTML, CSS Y JS alojada en github pages
+3. Base de datos: Alojada en el servicio de Supabase
+
+**Sitio web Cliente**
+[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)
+
 ## Ejercicio API Rest _Ful_
 
 Para este ejercicio se trabajó de la siguiente manera
