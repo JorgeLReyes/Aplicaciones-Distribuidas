@@ -21,7 +21,7 @@ Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [car
 ## Web sockets
 
 Para este ejercicio se trabajó de la siguiente manera
-1. Servidor: Node.JS con Express alojado en el servicio web de Render
+1. Servidor: Node.JS con Express con la liberia de **Sockets** alojado en el servicio web de Render
 2. Cliente: HTML, CSS Y JS alojada en github pages
 3. Base de datos: Alojada en el servicio de Supabase
 
