@@ -27,6 +27,8 @@ Para este ejercicio se trabajó de la siguiente manera
 
 **Sitio web Cliente**
 [Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)
+
+En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
 
 ## Ejercicio API Rest _Ful_
