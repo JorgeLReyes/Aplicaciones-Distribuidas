@@ -1,5 +1,9 @@
 # Aplicaciones-Distribuidas
 
+## Sockets
+
+Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [carpeta rar](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/AppsRar) de este repositorio
+
 ## Web sockets
 
 Para este ejercicio se trabajó de la siguiente manera
