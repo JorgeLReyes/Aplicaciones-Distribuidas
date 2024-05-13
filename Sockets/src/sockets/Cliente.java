@@ -37,7 +37,7 @@ class LaminaMarcoCliente extends JPanel{
         @Override
         public void actionPerformed(ActionEvent e) {
             try{
-                Socket misoSocket = new Socket("192.168.1.75",9999);
+                Socket misoSocket = new Socket("localhost",9999);
                 DataOutputStream flujo_salida = new DataOutputStream(misoSocket.getOutputStream());
                 flujo_salida.writeUTF(campo1.getText());
                 campo1.setText("");
