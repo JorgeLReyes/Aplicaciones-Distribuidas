@@ -4,7 +4,7 @@
 1. [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#sockets)
 3. [WebSockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#Web-Sockets)
 2. [RMI con UTP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#udp)
-4.
+4. [SOAP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#soap)
 5. [API Rest _Ful_](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#api-rest-ful)
 6. [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#graphql)
 
@@ -50,6 +50,15 @@ Este ejecicicio se hizo con Java con el protocolo UDP. Pueden descargar el proye
 >>![imagen cliente](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Img/serverutp.png)
 
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
+# SOAP
+
+> _*Repositorio: [SOAP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/SOAP)*_
+
+Este ejercicio se realizó con Python y Java. Pueden descargar el proyecto rar desde la [carpeta rar](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/AppsRar) de este repositorio.
+
+[⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
 
 ## API Rest _Ful_
 
