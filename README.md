@@ -1,11 +1,13 @@
 # Aplicaciones-Distribuidas
 
-Ejercicios
+**Ejercicios**
 - [UTP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#udp)
 - [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#sockets)
 - [WebSockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#Web-Sockets)
 - [API Rest _Ful_](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#api-rest-ful)
 - [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#graphql)
+
+_*Nota:*_Los ejercicios basados en web (web sockets, api rest y graphql) se encuentran desplegados. En cada tema encontrarás el link para acceder a cada uno de los sitios web
 
 ## UDP
 > _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/SocketUDP)*_
