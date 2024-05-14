@@ -26,7 +26,7 @@ Para este ejercicio se trabajó de la siguiente manera
 3. Base de datos: Alojada en el servicio de Supabase
 
 **Sitio web Cliente**
-[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)*_
 
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
@@ -43,9 +43,9 @@ Para este ejercicio se trabajó de la siguiente manera
 | Petición HTTP | URL | Headers | Valores requeridos
 | ----------- | ----------- | ----------- | ----------- |
 | GET | [Obtener todos los usuarios](https://apirestful-users.onrender.com/users)| |
-| POST | Añadir un nuevo usuario: https://apirestful-users.onrender.com/user | Token : 1324 | nombre
-| PUT | Editar un usuario: https://apirestful-users.onrender.com/user | Token : 1324 | id y nombre
-| DELETE | Eliminar un usuario: https://apirestful-users.onrender.com/user  | Token : 1324 | id
+| POST | Añadir un nuevo usuario: _*https://apirestful-users.onrender.com/user*_ | Token : 1324 | nombre
+| PUT | Editar un usuario: _*https://apirestful-users.onrender.com/user*_ | Token : 1324 | id y nombre
+| DELETE | Eliminar un usuario: _*https://apirestful-users.onrender.com/user*_  | Token : 1324 | id
 
 ```
 Formato para mandar el objeto de la petición
@@ -57,7 +57,7 @@ Formato para mandar el objeto de la petición
 }
 ```
 **Sitio web Cliente**
-[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%20Rest/Client/)
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%20Rest/Client/)*_
 
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
@@ -69,7 +69,7 @@ Para este ejercicio se trabajó de la siguiente manera
 2. Cliente: HTML, CSS Y JS alojada en github pages
 3. Base de datos: Alojada en mongoDB con el servicio de Atlas 
 
-La URL para acceder a las distintas operaciones de CRUD es: _*https://graphql-psn7.onrender.com/graphql*_
+URL para realizar pruebas con el servidor desplegado (Metodo _POST_): _*https://graphql-psn7.onrender.com/graphql*_
 
 Cuerpo para las distintas peticiones desde el cliente
 
