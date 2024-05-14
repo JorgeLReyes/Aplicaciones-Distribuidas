@@ -31,7 +31,7 @@ Para este ejercicio se trabajó de la siguiente manera
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
 
-## Ejercicio API Rest _Ful_
+## API Rest _Ful_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
@@ -61,3 +61,52 @@ Formato para mandar el objeto de la petición
 
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
+
+## GraphQL
+
+Para este ejercicio se trabajó de la siguiente manera
+1. Servidor: Node.JS con GraphQL y Apollo alojado en el servicio web de Render
+2. Cliente: HTML, CSS Y JS alojada en github pages
+3. Base de datos: Alojada mongoDB con el servicio de Atlas 
+
+La URL para acceder a las distintas operaciones de CRUD es: https://graphql-psn7.onrender.com/graphql
+
+> Queries
+
+1. getAllUsers
+```GraphQL
+query {
+  getAllUsers {
+    id
+    name
+    email
+  }
+}
+```
+1. createUser
+```GraphQL
+mutation {
+  createUser(name: "Alice", email: "alice@example.com", password: "12345") {
+    id
+    name
+    email
+  }
+}
+```
+1. updateUser
+```GraphQL
+mutation {
+  updateUser(id: "<USER_ID>", name: "Nuevo Nombre", email: "nuevoemail@example.com") {
+    id
+    name
+    email
+  }
+}
+
+```
+1. deleteUser
+```GraphQL
+mutation {
+  deleteUser(id: "<USER_ID>")
+}
+```
