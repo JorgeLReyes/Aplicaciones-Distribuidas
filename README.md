@@ -11,7 +11,7 @@ Este ejecicicio se hizo con Java con el protocolo UDP. Pueden descargar el proye
 >>![imagen cliente](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Img/serverutp.png)
 
 ## Sockets
-> _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Sockets)*_
+> _*Repositorio: [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Sockets)*_
 
 Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [carpeta rar](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/AppsRar) de este repositorio
 >_Cliente enviando mensaje a servidor_
@@ -21,7 +21,7 @@ Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [car
 >>![imagen cliente](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Img/servidorJava.png)
 
 ## Web sockets
-> _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/WebSockets)*_
+> _*Repositorio: [Web sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/WebSockets)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express con la liberia de **Sockets** alojado en el servicio web de Render
@@ -35,7 +35,7 @@ En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
 
 ## API Rest _Ful_
-> _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_
+> _*Repositorio: [API Rest](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
@@ -51,12 +51,12 @@ Para este ejercicio se trabajó de la siguiente manera
 | PUT | Editar un usuario: _*https://apirestful-users.onrender.com/user*_ | Token : 1324 | id y nombre
 | DELETE | Eliminar un usuario: _*https://apirestful-users.onrender.com/user*_  | Token : 1324 | id
 
-```
 Formato para mandar el objeto de la petición
+```json
 {
   "data":{
-    "id":[valor],
-    "nombre":[valor],
+    "id":"<ID>",
+    "nombre":"<NOMBRE>",
   }  
 }
 ```
@@ -67,7 +67,7 @@ En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
 
 ## GraphQL
-> _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/GraphQL)*_
+> _*Repositorio: [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/GraphQL)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con GraphQL y Apollo alojado en el servicio web de Render
