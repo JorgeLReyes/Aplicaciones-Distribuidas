@@ -11,7 +11,6 @@
 _*Nota:*_ Los ejercicios basados en web (web sockets, api rest y graphql) se encuentran desplegados. Los clientes se encuentran dentro de cada una de las carpetas de estos temas pero estos funcionan de manera independiente, es decir, se puede extraer el código cliente unicamente sin ningún problema.
 
 ## Sockets
-[⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
 > _*Repositorio: [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Sockets)*_ 
 
 Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [carpeta rar](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/AppsRar) de este repositorio
@@ -21,8 +20,9 @@ Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [car
 >_Servidor recibiendo mensaje desde el cliente_
 >>![imagen cliente](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Img/servidorJava.png)
 
-## Web sockets
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
+## Web sockets
 > _*Repositorio: [Web sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/WebSockets)*_
 
 Para este ejercicio se trabajó de la siguiente manera
@@ -36,8 +36,10 @@ _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebS
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
 
-## UDP
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
+## UDP
+
 > _*Repositorio: [UDP](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/SocketUDP)*_
 
 Este ejecicicio se hizo con Java con el protocolo UDP. Pueden descargar el proyecto rar desde la [carpeta rar](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/AppsRar) de este repositorio
@@ -47,8 +49,10 @@ Este ejecicicio se hizo con Java con el protocolo UDP. Pueden descargar el proye
 >_Servidor recibiendo mensaje desde el cliente_
 >>![imagen cliente](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Img/serverutp.png)
 
-## API Rest _Ful_
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
+## API Rest _Ful_
+
 > _*Repositorio: [API Rest](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_
 
 Para este ejercicio se trabajó de la siguiente manera
@@ -80,8 +84,10 @@ _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
 
-## GraphQL
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
+
+## GraphQL
+
 > _*Repositorio: [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/GraphQL)*_
 
 Para este ejercicio se trabajó de la siguiente manera
@@ -131,3 +137,4 @@ mutation {
   deleteUser(id: "<USER_ID>")
 }
 ```
+[⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
