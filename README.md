@@ -67,36 +67,37 @@ En la siguiente imagen podemos observar el diagrama de arquitectura
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con GraphQL y Apollo alojado en el servicio web de Render
 2. Cliente: HTML, CSS Y JS alojada en github pages
-3. Base de datos: Alojada mongoDB con el servicio de Atlas 
+3. Base de datos: Alojada en mongoDB con el servicio de Atlas 
 
-La URL para acceder a las distintas operaciones de CRUD es: https://graphql-psn7.onrender.com/graphql
+La URL para acceder a las distintas operaciones de CRUD es: _*https://graphql-psn7.onrender.com/graphql*_
 
-> Queries
+Cuerpo para las distintas peticiones desde el cliente
 
-1. getAllUsers
+1. Obtener usuarios
 ```GraphQL
 query {
   getAllUsers {
     id
     name
     email
+    password
   }
 }
 ```
-1. createUser
+2. Crear usuario
 ```GraphQL
 mutation {
-  createUser(name: "Alice", email: "alice@example.com", password: "12345") {
+  createUser(name: "<NAME>", email: "<EMAIL>", password: "<PASSWORD>") {
     id
     name
     email
   }
 }
 ```
-1. updateUser
+3. Actualizar usuario
 ```GraphQL
 mutation {
-  updateUser(id: "<USER_ID>", name: "Nuevo Nombre", email: "nuevoemail@example.com") {
+  updateUser(id: "<USER_ID>", name: "<NAME>", email: "<EMAIL>") {
     id
     name
     email
@@ -104,7 +105,7 @@ mutation {
 }
 
 ```
-1. deleteUser
+4. Eliminar usuario
 ```GraphQL
 mutation {
   deleteUser(id: "<USER_ID>")
