@@ -8,7 +8,7 @@
 5. [API Rest _Ful_](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#api-rest-ful)
 6. [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#graphql)
 
-_*Nota:*_ Los ejercicios basados en web (web sockets, api rest y graphql) se encuentran desplegados. En cada tema encontrarás el link para acceder a cada uno de los sitios web
+_*Nota:*_ Los ejercicios basados en web (web sockets, api rest y graphql) se encuentran desplegados. Los clientes se encuentran dentro de cada una de las carpetas de estos temas pero estos funcionan de manera independiente, es decir, se puede extraer el código cliente unicamente sin ningún problema.
 
 ## Sockets
 > _*Repositorio: [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Sockets)*_
