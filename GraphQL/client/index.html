@@ -1,0 +1,77 @@
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Administrador de Usuarios</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Administrador de Usuarios</h1>
+    </header>
+
+    <main>
+      <section class="user-list">
+        <h2>Lista de Usuarios</h2>
+        <div id="user-list"></div>
+      </section>
+
+      <section class="user-forms">
+        <h2>Agregar Usuario</h2>
+        <form id="create-user-form">
+          <input type="text" id="create-name" placeholder="Nombre" required />
+          <input
+            type="email"
+            id="create-email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <input
+            type="password"
+            id="create-password"
+            placeholder="Contraseña"
+            required
+          />
+          <button type="submit">Crear</button>
+        </form>
+
+        <h2>Actualizar Usuario</h2>
+        <form id="update-user-form">
+          <input
+            type="text"
+            id="update-id"
+            placeholder="ID del Usuario"
+            disabled
+          />
+          <input type="text" id="update-name" placeholder="Nuevo Nombre" />
+          <input
+            type="email"
+            id="update-email"
+            placeholder="Nuevo Correo Electrónico"
+          />
+          <input
+            type="password"
+            id="update-password"
+            placeholder="Nueva Contraseña"
+          />
+          <button type="submit">Actualizar</button>
+        </form>
+
+        <h2>Eliminar Usuario</h2>
+        <form id="delete-user-form">
+          <input
+            type="text"
+            id="delete-id"
+            placeholder="ID del Usuario"
+            disabled
+          />
+          <button type="submit">Eliminar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
