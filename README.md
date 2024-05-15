@@ -146,4 +146,7 @@ mutation {
   deleteUser(id: "<USER_ID>")
 }
 ```
+**Sitio web Cliente**
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/GraphQL/client/)*_
+
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
