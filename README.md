@@ -24,6 +24,7 @@ Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [car
 
 ## Web sockets
 > _*Repositorio: [Web sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/WebSockets)*_
+
 >**Sitio web Cliente**
 _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)*_
 
