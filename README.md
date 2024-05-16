@@ -62,7 +62,8 @@ Este ejercicio se realizó con Python y Java. Pueden descargar el proyecto rar d
 
 ## API Rest _Ful_
 
-> _*Repositorio: [API Rest](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_  
+> _*Repositorio: [API Rest](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_
+
 >**Sitio web Cliente**
 _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%20Rest/Client/)*_
 
@@ -97,6 +98,7 @@ En la siguiente imagen podemos observar el diagrama de arquitectura
 ## GraphQL
 
 > _*Repositorio: [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/GraphQL)*_
+
 >**Sitio web Cliente**
 _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/GraphQL/client/)*_
 
