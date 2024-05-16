@@ -24,14 +24,13 @@ Este ejecicicio se hizo con Java. Pueden descargar el proyecto rar desde la [car
 
 ## Web sockets
 > _*Repositorio: [Web sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/WebSockets)*_
+>**Sitio web Cliente**
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express con la liberia de **Sockets** alojado en el servicio web de Render
 2. Cliente: HTML, CSS Y JS alojada en github pages
 3. Base de datos: Alojada en el servicio de Supabase
-
-**Sitio web Cliente**
-_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/WebSockets/SocketClient/)*_
 
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/socket.io.png)
@@ -63,6 +62,8 @@ Este ejercicio se realizó con Python y Java. Pueden descargar el proyecto rar d
 ## API Rest _Ful_
 
 > _*Repositorio: [API Rest](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/API%20Rest)*_
+>**Sitio web Cliente**
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%20Rest/Client/)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con Express alojado en el servicio web de Render
@@ -87,9 +88,6 @@ Formato para mandar el objeto de la petición
   }  
 }
 ```
-**Sitio web Cliente**
-_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/API%20Rest/Client/)*_
-
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/API.png)
 
@@ -98,6 +96,8 @@ En la siguiente imagen podemos observar el diagrama de arquitectura
 ## GraphQL
 
 > _*Repositorio: [GraphQL](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/GraphQL)*_
+>**Sitio web Cliente**
+_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/GraphQL/client/)*_
 
 Para este ejercicio se trabajó de la siguiente manera
 1. Servidor: Node.JS con GraphQL y Apollo alojado en el servicio web de Render
@@ -146,9 +146,6 @@ mutation {
   deleteUser(id: "<USER_ID>")
 }
 ```
-**Sitio web Cliente**
-_*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/GraphQL/client/)*_
-
 En la siguiente imagen podemos observar el diagrama de arquitectura
 ![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/graphql.jpg)
 
