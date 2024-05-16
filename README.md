@@ -149,4 +149,7 @@ mutation {
 **Sitio web Cliente**
 _*[Ir al sitio web](https://jorgelreyes.github.io/Aplicaciones-Distribuidas/GraphQL/client/)*_
 
+En la siguiente imagen podemos observar el diagrama de arquitectura
+![imagen diagrama](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Diagramas%20arquitectura/graphql.jpg)
+
 [⇧ Regresar al menú](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#aplicaciones-distribuidas)
