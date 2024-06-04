@@ -7,13 +7,39 @@
   <p align="center">
     Mejora la manera de enviar tus correos!
     <br />
-    <a href="https://fastsend.onrender.com/usuarios" target="_blank">Ver despliegue</a>
+    <a href="https://fastsend.onrender.com/usuarios">Ver despliegue</a>
     ·
     <a href="https://server-graph-final.onrender.com/graphql">Servidor GraphQL</a>
     ·
     <a href="https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Proyecto%20final">Repositorio</a>
   </p>
 </div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Tabla de contenido</summary>
+  <ol>
+    <li>
+      <a href="#sobre-el-proyecto">Sobre el proyecto</a>
+      <ul>
+        <li><a href="#tecnologias-usadas">Tecnologias usadas</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 **Ejercicios**
 1. [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#sockets)
