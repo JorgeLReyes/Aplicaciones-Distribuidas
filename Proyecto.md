@@ -37,6 +37,7 @@
 ### 🗃 &nbsp;Servidor 
 * ![NodeJS](https://img.shields.io/badge/nodejs-%232B5639.svg?style=for-the-badge&logo=node.js&logoColor=%2368A063)&nbsp;
 * ![Express](https://img.shields.io/badge/Express-%23323330.svg?style=for-the-badge&logo=express&logoColor=%21101110)&nbsp;
+* ![GraphQL](https://img.shields.io/badge/GraphQL-E10098.svg?style=for-the-badge&logo=graphql)&nbsp;
   
 ### 🗃 &nbsp;Databases
 * ![Supabase](https://img.shields.io/badge/Supabase-%230D4C41.svg?style=for-the-badge&logo=supabase&logoColor=%23199E8A)&nbsp;
