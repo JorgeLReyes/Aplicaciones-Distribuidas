@@ -39,3 +39,4 @@
 * ![Express](https://img.shields.io/badge/Express-%23323330.svg?style=for-the-badge&logo=express&logoColor=%21101110)&nbsp;
   
 ### 🗃 &nbsp;Databases
+* ![Supabase](https://img.shields.io/badge/Supabase-%230D4C41.svg?style=for-the-badge&logo=supabase&logoColor=%23199E8A)&nbsp;
