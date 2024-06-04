@@ -27,8 +27,15 @@
   </ol>
 </details>
 
-### 🛠 &nbsp;Tecnologías
+## Tecnologías utilizadas
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+### 🛠 &nbsp;Cliente
+* ![PUG](https://img.shields.io/badge/pug-%23A86454.svg?style=for-the-badge&logo=pug&logoColor=%23443018)&nbsp;
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
+
+### 🗃 &nbsp;Servidor 
+* ![NodeJS](https://img.shields.io/badge/nodejs-%232B5639.svg?style=for-the-badge&logo=node.js&logoColor=%2368A063)&nbsp;
+* ![Express](https://img.shields.io/badge/Express-%23323330.svg?style=for-the-badge&logo=express&logoColor=%21101110)&nbsp;
+  
+### 🗃 &nbsp;Databases
