@@ -1,5 +1,8 @@
 # Aplicaciones-Distribuidas
 
+[README PROYECTO](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/blob/main/Proyecto.md)
+
+
 **Ejercicios**
 1. [Sockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#sockets)
 3. [WebSockets](https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main?tab=readme-ov-file#Web-Sockets)
