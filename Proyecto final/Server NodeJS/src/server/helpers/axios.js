@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosRequest = async (options) => {
   // url, options:{query, variables}
-  const url = "http://localhost:4000/graphql";
+  const url = "https://server-graph-final.onrender.com";
 
   if (!options.variables) delete options.variables;
 
