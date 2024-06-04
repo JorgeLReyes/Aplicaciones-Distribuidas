@@ -1,0 +1,10 @@
+.main-child {
+  justify-content: center;
+  height: 100%;
+}
+
+.main-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

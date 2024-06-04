@@ -1,0 +1,43 @@
+body {
+  background-color: var(--bg-gray-body);
+  height: 100dvh;
+}
+
+main.flex {
+  overflow-y: auto;
+  width: 100%;
+  flex-grow: 1;
+  align-items: start;
+}
+
+.main-child {
+  width: 100%;
+  padding: 1.5rem;
+  padding-bottom: 0;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "nav header"
+    "nav main";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 3rem 1fr;
+  height: 100vh;
+}
+
+.container-nav {
+  grid-area: nav;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}

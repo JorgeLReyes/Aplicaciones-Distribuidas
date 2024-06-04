@@ -1,0 +1,74 @@
+extends ../layout
+
+block links
+  link(rel="stylesheet", href="/css/config.css")
+
+block content
+  section.flex.container-config
+      section.config-title
+        h2 Configuración de cuenta
+      section.flex.config-body
+        section.flex.user
+          label Correo
+            .flex.input
+              input.input-readonly(type="text", value=email,readonly)
+        section.flex.forms 
+          h3 Actualizar nombre de usuario
+          hr
+          form.flex#form-update-name
+            .flex.container-input
+              label Nombre actual
+              .flex.input
+                input.input-readonly(type="text", value=user, readonly)
+            .flex.container-input
+              label Nombre nuevo
+              .flex.input
+                input.active(type="text", name="newUsername")
+            .flex.buttons
+              button(type="submit") Cambiar nombre de usuario
+          h3 Actualizar contraseña
+          hr
+          form.flex#form-reset-password
+            .flex.container-input
+              label Contraseña actual
+              .flex.input
+                input.active(type="password" name="oldPassword")
+                .flex.input-icon
+                  button(type="button" data-eye)
+                    ion-icon(
+                      name="eye-off-outline"
+                      style="color: var(--color-blue)"
+                    )
+            .flex.container-input
+              label Contraseña nueva
+              .flex.input
+                input.active(type="password" id="verify-password")
+                .flex.input-icon
+                  button(type="button" data-eye)
+                    ion-icon(
+                      name="eye-off-outline"
+                      style="color: var(--color-blue)"
+                    )
+            .container-input-value
+              ul.flex.container-input-value-list(id="list")
+                li.length Usa 8 caracteres o más
+                li.letters Usa letras mayúsculas y minúsculas
+                li.numbers Usa más de un número
+                li.special Usa más de un símbolo
+            .flex.container-input
+              label Confirmar contraseña nueva
+              .flex.input
+                input.active(type="password" name="newPassword")
+                .flex.input-icon
+                  button(type="button" data-eye)
+                    ion-icon(
+                      name="eye-off-outline"
+                      style="color: var(--color-blue)"
+                    )
+            .flex.buttons
+              button(type="submit") Cambiar contraseña
+
+block scripts 
+  script(src="/helpers/hiddenText.js")
+  script(src="/helpers/error.js")
+  script(src="/js/admin/config.js" type="module") 

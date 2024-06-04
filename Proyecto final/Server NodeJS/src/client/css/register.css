@@ -1,0 +1,155 @@
+h1 {
+  font-size: calc(var(--h1) - 0.3rem);
+}
+
+h2 {
+  color: var(--text-color-black);
+  font-weight: normal;
+}
+
+form {
+  gap: 20px;
+}
+
+main > * {
+  min-height: 100dvh;
+}
+
+button {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-child {
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  gap: 30px;
+  margin: 1rem 0;
+}
+
+.container-child > * {
+  width: 100%;
+}
+
+.container-child-header {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container-child-header > * {
+  width: 100%;
+}
+
+.container-logo {
+  justify-content: start;
+  height: 2.5rem;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.container-child-body {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-child-body > * {
+  width: 100%;
+}
+
+.container-input-value-list {
+  flex-direction: column;
+  align-items: start;
+  padding-left: 1.5rem;
+  color: var(--text-color-gray);
+  gap: 0.2rem;
+  font-size: calc(var(--text-info) - 0.1rem);
+}
+
+.container-child-footer {
+  text-align: center;
+  font-size: var(--text-info);
+}
+
+.input-icon {
+  position: absolute;
+  margin: 0 1rem;
+  right: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.input-icon * {
+  font-size: 1.2rem;
+}
+
+.input > input.active {
+  padding-right: 3rem;
+}
+
+.input-icon > button {
+  display: contents;
+}
+
+label {
+  font-size: 14px;
+}
+
+.bg {
+  display: none;
+  background-image: none;
+}
+
+.subtitle p {
+  display: none;
+}
+
+.length.valid,
+.letters.valid,
+.numbers.valid,
+.special.valid {
+  color: var(--color-blue);
+}
+
+@media screen and (min-width: 769px) {
+  .bg {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-image: url("../img/fondoConagua.webp");
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+
+  .flex.container {
+    width: 60vw;
+    max-width: 600px;
+  }
+
+  .container-child-body {
+    border: thin solid var(--color-stroke-gray);
+    padding: 1.5rem 3rem;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  main {
+    background-color: var(--bg-baby-gray);
+  }
+
+  .subtitle p {
+    display: block;
+    font-size: var(--text-info);
+  }
+}

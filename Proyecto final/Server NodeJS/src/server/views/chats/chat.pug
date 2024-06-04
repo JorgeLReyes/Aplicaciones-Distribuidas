@@ -1,0 +1,28 @@
+extends ../layout
+
+block links
+  link(rel="stylesheet", href="/css/chat.css")
+
+block content
+  section.flex.chat
+    section.flex.chat-messages
+      section.flex.chat-messages-container
+        section.flex.chat-title
+          h3 Pendientes
+        section.flex.chat-body#pendientes
+      //- hr
+      section.flex.chat-messages-container
+        section.flex.chat-title
+          h3 Enviados
+          button.flex(type="button").btn-add
+            ion-icon(name="add-circle-outline")
+        section.flex.chat-body#enviados
+    section.flex.chat-lector
+      section.flex.chat-bg
+        <ion-icon name="mail-outline"></ion-icon>
+        span Haz click en un mensaje para visualizarlo
+        span o
+        button.btn-add Manda un mensaje
+      
+block scripts 
+  script(src="/js/chats/chat.js", type="module") 

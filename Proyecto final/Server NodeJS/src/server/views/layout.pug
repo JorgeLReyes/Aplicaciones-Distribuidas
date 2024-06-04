@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= title
+    link(rel="shortcut icon", href="/img/logo.svg")
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Poppins&display=swap", rel="stylesheet")
+    link(rel="stylesheet", href="/css/style.css")
+    link(rel="stylesheet", href="/css/dashboard.css")
+    link(rel="stylesheet", href="/css/nav.css")
+    link(rel="stylesheet", href="/css/header.css")
+    script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
+    block links
+
+  body.grid
+    include nav
+    include header
+    main.flex
+      section.flex.main-child
+        block content
+
+    
+    //- script(defer, src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js")
+    script(type="module", src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js")
+    script(nomodule , src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js")
+    script(src="/socket.io/socket.io.min.js") 
+    script(src="/js/sockets.js", type="module") 
+    script(src="/js/chats/notificacion.js", type="module") 
+    script(src="/helpers/navList.js") 
+    block scripts

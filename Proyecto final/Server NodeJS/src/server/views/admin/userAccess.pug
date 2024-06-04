@@ -1,0 +1,21 @@
+extends ../layout
+
+block links
+    link(rel="stylesheet", href="/css/table.css")
+    link(rel="stylesheet", href="/css/userAccess.css")
+
+block content
+  section.flex.table-container
+      section.table-title
+        h2 Acceso a usuarios
+      section.table   
+        table#table
+  if(rol==="superAdmin")
+    section.flex.table-container
+        section.table-title
+          h2 Usuarios del sistema
+        section.table   
+          table#table-users
+
+block scripts 
+  script(src="/js/admin/validateAccess.js" type="module") 

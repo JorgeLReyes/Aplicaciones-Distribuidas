@@ -1,0 +1,105 @@
+.main-child {
+  padding-bottom: 1.5rem;
+}
+
+table button {
+  padding: 0.4rem 0.8rem;
+}
+
+table button:first-child {
+  background-color: var(--btn-blue);
+}
+
+table button:last-child {
+  background-color: var(--btn-red);
+}
+
+table td:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.modal-password {
+  position: fixed;
+  background-color: #18181810;
+  inset: 0;
+  z-index: 9999;
+}
+
+.modal-container {
+  background: #fff;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 0.5 rem;
+}
+
+.modal-container > * {
+  width: 100%;
+}
+
+.modal-title {
+  font-size: calc(var(--text-info) + 0.2rem);
+  color: var(--color-blue);
+}
+
+.modal-password button {
+  padding: 0.5rem 0.2rem;
+}
+
+.form-buttons {
+  gap: 1rem;
+}
+
+.modal-password form button {
+  background-color: var(--btn-blue);
+}
+
+.modal-password .btnFormClose {
+  background-color: var(--btn-red);
+}
+
+.modal-form {
+  flex-direction: column;
+}
+
+.modal-form > * {
+  width: 100%;
+}
+
+.modal-form form {
+  gap: 0.5rem;
+}
+
+.modal-form label {
+  font-size: var(--text-info);
+}
+
+.modal-form .input {
+  border: none;
+  flex-direction: column;
+}
+
+.input {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  align-items: start;
+}
+
+.input input {
+  border: var(--border);
+  border-radius: var(--border-radius8);
+}
+
+.input input:focus {
+  border-color: var(--color-stroke-blue);
+  background-color: var(--bg-blue20);
+}
+
+.readonly input {
+  color: #5b5b5b;
+  background-color: #ddd !important;
+  border-color: var(--color-stroke-gray) !important;
+}

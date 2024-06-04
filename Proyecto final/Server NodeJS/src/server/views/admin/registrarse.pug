@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    )
+    link(rel="stylesheet" href="/css/style.css")
+    link(rel="stylesheet" href="/css/register.css")
+    script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2")
+  body
+    main.flex
+      section.bg.container
+      section.flex.container
+        section.flex.container-child
+          section.flex.container-child-body
+            section.flex.container-child-header
+              section.flex.container-logo
+                .logo
+                  img(src="/img/logo.svg" alt="logo conagua")
+                .title
+                  h1 FastSend
+            .subtitle
+              h2 Crear una cuenta
+              p Tendrás que esperar a que el administrador te de acceso
+            form.flex
+              .flex.container-input
+                label(for="nombre") Nombre
+                .flex.input
+                  input.active(type="text" id="nombre" name="nombre")
+              .flex.container-input
+                label(for="usuario") Correo electrónico
+                .flex.input
+                  input.active(type="text" id="email" name="email")
+              .flex.container-input
+                label(for="contrasenia") Contraseña
+                .flex.input
+                  input.active(type="password" id="verify-password")
+                  .flex.input-icon
+                    button(type="button" data-eye)
+                      ion-icon(
+                        name="eye-off-outline"
+                        style="color: var(--color-blue)"
+                      )
+              .container-input-value
+                ul.flex.container-input-value-list(id="list")
+                  li.length Usa 8 caracteres o más
+                  li.letters Usa letras mayúsculas y minúsculas
+                  li.numbers Usa más de un número
+                  li.special Usa más de un símbolo
+              .flex.container-input
+                label(for="contrasenia") Confirmar contraseña
+                .flex.input
+                  input.active(type="password" name="password")
+                  .flex.input-icon
+                    button(type="button" data-eye)
+                      ion-icon(
+                        name="eye-off-outline"
+                        style="color: var(--color-blue)"
+                      )
+              .buttons
+                button(type="submit" style="--button-color: var(--color-blue)")
+                  | Registrarse
+            section.container-child-footer
+              span ¿Ya tienes una cuenta?
+              a(href="/") Iniciar sesión
+    script(type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js")
+    script(nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js")
+    script(src="/helpers/hiddenText.js")
+    script(src="/helpers/error.js")
+    script(src="/js/registrarse.js" type="module")

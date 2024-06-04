@@ -1,0 +1,51 @@
+section.flex.table-container
+  section.table-title
+    h2= titleTable
+  section.flex.table-options
+    section.flex.table-options-child
+      section.flex.table-filters
+        button.flex.btn.table-btn-filters
+          ion-icon(name="filter-outline")
+          span Filtros
+        section.flex.table-search 
+          select#search(name="search")
+          input#input_search(type="text")
+      section.flex.table-actions
+        if mostrar 
+          button.flex.btn.table-btn-qr
+            ion-icon(name="qr-code-outline")            
+            span QR
+        button.flex.btn.table-btn-options
+          ion-icon(name="create-outline") 
+          span Opciones avanzadas
+        if mostrar 
+          button.flex.btn.table-btn-add
+            ion-icon(name="add-circle-outline") 
+            span Agregar
+    if navegacion
+      section.flex.table-options-child.nav-buttons
+        section.flex.table-actions
+          button.flex.btn.table-btn-equipos
+            span Equipos de computo
+          button.flex.btn.table-btn-dispositivos
+            span Dispositivos
+  section.table   
+    table#table
+  section.flex.table-footer
+    section.table-footer-count-data
+      span Total de resultados: 
+      //- b#viewData= 0
+      //- span de
+      b#totalData= 0
+    //- section.flex.table-footer-buttons
+    //-   button.flex.btn.table-btn-previous
+    //-     ion-icon(name="caret-back-outline")
+    //-     span Anterior
+    //-   button.flex.btn.table-btn-next
+    //-     span  Siguiente
+    //-     ion-icon(name="caret-forward-outline")
+    //- section.table-footer-page
+    //-   span Página
+    //-   b#page= 0
+    //-   span de
+    //-   b#totalPages= 0

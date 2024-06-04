@@ -1,0 +1,95 @@
+.grid-form {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "form";
+  gap: 0.5rem;
+  grid-template-rows: 2rem 1fr;
+}
+
+.form-container {
+  z-index: 999;
+  position: fixed;
+  width: 350px;
+  height: calc(100vh - 3rem);
+  bottom: auto;
+  right: 0;
+  background-color: #fff;
+  padding: 1rem 0;
+}
+
+.form-container > *:not(.loader) {
+  width: 100%;
+  /* justify-content: stretch; */
+}
+
+.form-header {
+  justify-content: space-between;
+  grid-area: header;
+  padding: 0 2rem;
+}
+
+.form-header ion-icon {
+  color: var(--color-blue);
+  font-size: calc(var(--text-info) + 0.5rem);
+}
+
+.form-container form {
+  font-size: calc(var(--text-info) - 0.1rem);
+  grid-area: form;
+  flex-direction: column;
+  overflow-y: auto;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.form-container form > * {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.form-container input {
+  height: 2rem;
+}
+
+.form-inputs {
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.form-buttons {
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.form-buttons .btn {
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: var(--btn-blue);
+}
+.btn-edit {
+  background-color: var(--btn-blue);
+}
+.btn-del {
+  color: var(--btn-red);
+  border: thin solid var(--btn-red);
+}
+
+.btn-close {
+  padding: 0;
+}
+
+.form-container .input {
+  overflow: hidden;
+}
+
+.form-container .input > select {
+  height: 2rem;
+  width: 100%;
+  outline: none;
+  border: none;
+}

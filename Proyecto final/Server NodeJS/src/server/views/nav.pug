@@ -1,0 +1,21 @@
+section.flex.container-nav.close#nav
+  section.flex.container-nav-header
+    div.flex.nav-logo
+      div.flex.logo(style="width:32px")
+        img(src="/img/logo.svg", alt="",style="width:100%;object-fit:contain")
+      h2 FastSend
+  nav.flex
+    if rol === "administrador" || rol==="superAdmin"
+      div.flex.nav-item
+        a.flex(href="/usuarios")
+          ion-icon(name="people-outline")
+          span Registros
+    div.flex.nav-item
+      a.flex(href="/chat")
+        ion-icon(name="chatbox-outline")
+        span Chat
+    div.flex.nav-item
+      a.flex(href="/configuracion")
+        ion-icon(name="settings-outline")
+        span Configuración
+

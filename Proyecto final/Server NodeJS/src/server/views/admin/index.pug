@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="shortcut icon" href="/img/logo.svg")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    )
+    link(rel="stylesheet" href="/css/style.css")
+    link(rel="stylesheet" href="/css/login.css")
+    script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
+  body
+    main.flex
+      section.bg.container
+      section.flex.container
+        section.flex.container-child
+          section.flex.container-child-header
+            .flex.logo(style="width:100px")
+              img(src="/img/logo.svg" alt="logo conagua",style="width:100%;object-fit:cover")
+            .title
+              h1 FastSend
+          form.flex
+            .flex.container-input
+              label(for="usuario") Usuario
+              .flex.input
+                input.active(type="text" id="usuario" name="email")
+            .flex.container-input
+              label(for="contrasenia") Contraseña
+              .flex.input
+                input.active(type="password" id="contrasenia" name="password")
+                .flex.input-icon
+                  button(type="button" data-eye)
+                    ion-icon(
+                      name="eye-off-outline"
+                      style="color: var(--color-blue)"
+                    )
+            //- #checkbox.flex.container-input.checkbox
+            //-   input(type="checkbox" id="check")
+            //-   label(for="check") Recuerdame
+            .buttons#checkbox
+              button(type="submit" style="--button-color: var(--color-blue)") Iniciar sesión
+          section.container-child-footer
+            span ¿Todavia no tienes una cuenta?
+            a(href="registrarse") Registrate
+    script(type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js")
+    script(nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js")
+    script(src="/js/index.js" type="module")
+    script(src="/helpers/hiddenText.js")
