@@ -7,7 +7,7 @@
   <p align="center">
     Mejora la manera de enviar tus correos!
     <br />
-    <a href="https://fastsend.onrender.com/usuarios">Ver despliegue</a>
+    <a href="https://fastsend.onrender.com/usuarios" target="_blank">Ver despliegue</a>
     ·
     <a href="https://server-graph-final.onrender.com/graphql">Servidor GraphQL</a>
     ·
