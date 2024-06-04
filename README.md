@@ -11,7 +11,7 @@
     ·
     <a href="https://server-graph-final.onrender.com/graphql">Servidor GraphQL</a>
     ·
-    <a href="https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/Proyecto%20Final">Repositorio</a>
+    <a href="https://github.com/JorgeLReyes/Aplicaciones-Distribuidas/tree/main/Proyecto%20final">Repositorio</a>
   </p>
 </div>
 
